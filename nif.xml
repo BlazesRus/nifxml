@@ -1098,9 +1098,9 @@
 
     <enum name="ForceType" storage="uint">
         Describes the type of gravitational force.
-        <option value="0" name="FORCE_PLANAR"></option>
-        <option value="1" name="FORCE_SPHERICAL"></option>
-        <option value="2" name="FORCE_UNKNOWN"></option>
+        <option value="0" name="FORCE_PLANAR" />
+        <option value="1" name="FORCE_SPHERICAL" />
+        <option value="2" name="FORCE_UNKNOWN" />
     </enum>
 
     <enum name="TransformMember" storage="uint">
@@ -6264,7 +6264,7 @@
         Skyrim Shader Property Flags 1
         <option bit="0" name="Specular">Enables Specularity</option>
         <option bit="1" name="Skinned">Required For Skinned Meshes.</option>
-        <option bit="2" name="Temp_Refraction"></option>
+        <option bit="2" name="Temp_Refraction" />
         <option bit="3" name="Vertex_Alpha">Enables using alpha component of vertex colors.</option>
         <option bit="4" name="Greyscale_To_PaletteColor">in EffectShaderProperty</option>
         <option bit="5" name="Greyscale_To_PaletteAlpha">in EffectShaderProperty</option>
@@ -6275,52 +6275,52 @@
         <option bit="10" name="Facegen_Detail_Map">Use a face detail map in the 4th texture slot.</option>
         <option bit="11" name="Parallax">Unused?</option>
         <option bit="12" name="Model_Space_Normals">Use Model space normals and an external Specular Map.</option>
-        <option bit="13" name="Non_Projective_Shadows"></option>
-        <option bit="14" name="Landscape"></option>
+        <option bit="13" name="Non_Projective_Shadows" />
+        <option bit="14" name="Landscape" />
         <option bit="15" name="Refraction">Use normal map for refraction effect.</option>
-        <option bit="16" name="Fire_Refraction"></option>
+        <option bit="16" name="Fire_Refraction" />
         <option bit="17" name="Eye_Environment_Mapping">Eye Environment Mapping (Must use the Eye shader and the model must be skinned)</option>
         <option bit="18" name="Hair_Soft_Lighting">Keeps from going too bright under lights (hair shader only)</option>
-        <option bit="19" name="Screendoor_Alpha_Fade"></option>
+        <option bit="19" name="Screendoor_Alpha_Fade" />
         <option bit="20" name="Localmap_Hide_Secret">Object and anything it is positioned above will not render on local map view.</option>
         <option bit="21" name="FaceGen_RGB_Tint">Use tintmask for Face.</option>
         <option bit="22" name="Own_Emit">Provides its own emittance color. (will not absorb light/ambient color?)</option>
         <option bit="23" name="Projected_UV">Used for decalling?</option>
-        <option bit="24" name="Multiple_Textures"></option>
-        <option bit="25" name="Remappable_Textures"></option>
-        <option bit="26" name="Decal"></option>
-        <option bit="27" name="Dynamic_Decal"></option>
-        <option bit="28" name="Parallax_Occlusion"></option>
-        <option bit="29" name="External_Emittance"></option>
-        <option bit="30" name="Soft_Effect"></option>
+        <option bit="24" name="Multiple_Textures" />
+        <option bit="25" name="Remappable_Textures" />
+        <option bit="26" name="Decal" />
+        <option bit="27" name="Dynamic_Decal" />
+        <option bit="28" name="Parallax_Occlusion" />
+        <option bit="29" name="External_Emittance" />
+        <option bit="30" name="Soft_Effect" />
         <option bit="31" name="ZBuffer_Test">ZBuffer Test (1=on)</option>
     </bitflags>
 
     <bitflags name="SkyrimShaderPropertyFlags2" storage="uint" prefix="SLSF2" versions="#SKY# #SSE#">
         Skyrim Shader Property Flags 2
         <option bit="0" name="ZBuffer_Write">Enables writing to the Z-Buffer</option>
-        <option bit="1" name="LOD_Landscape"></option>
-        <option bit="2" name="LOD_Objects"></option>
-        <option bit="3" name="No_Fade"></option>
+        <option bit="1" name="LOD_Landscape" />
+        <option bit="2" name="LOD_Objects" />
+        <option bit="3" name="No_Fade" />
         <option bit="4" name="Double_Sided">Double-sided rendering.</option>
         <option bit="5" name="Vertex_Colors">Has Vertex Colors.</option>
         <option bit="6" name="Glow_Map">Use Glow Map in the third texture slot.</option>
-        <option bit="7" name="Assume_Shadowmask"></option>
-        <option bit="8" name="Packed_Tangent"></option>
-        <option bit="9" name="Multi_Index_Snow"></option>
-        <option bit="10" name="Vertex_Lighting"></option>
-        <option bit="11" name="Uniform_Scale"></option>
-        <option bit="12" name="Fit_Slope"></option>
-        <option bit="13" name="Billboard"></option>
-        <option bit="14" name="No_LOD_Land_Blend"></option>
-        <option bit="15" name="EnvMap_Light_Fade"></option>
+        <option bit="7" name="Assume_Shadowmask" />
+        <option bit="8" name="Packed_Tangent" />
+        <option bit="9" name="Multi_Index_Snow" />
+        <option bit="10" name="Vertex_Lighting" />
+        <option bit="11" name="Uniform_Scale" />
+        <option bit="12" name="Fit_Slope" />
+        <option bit="13" name="Billboard" />
+        <option bit="14" name="No_LOD_Land_Blend" />
+        <option bit="15" name="EnvMap_Light_Fade" />
         <option bit="16" name="Wireframe">Wireframe (Seems to only work on particles)</option>
         <option bit="17" name="Weapon_Blood">Used for blood decals on weapons.</option>
         <option bit="18" name="Hide_On_Local_Map">Similar to hide secret, but only for self?</option>
         <option bit="19" name="Premult_Alpha">Has Premultiplied Alpha</option>
-        <option bit="20" name="Cloud_LOD"></option>
+        <option bit="20" name="Cloud_LOD" />
         <option bit="21" name="Anisotropic_Lighting">Hair only?</option>
-        <option bit="22" name="No_Transparency_Multisampling"></option>
+        <option bit="22" name="No_Transparency_Multisampling" />
         <option bit="23" name="Unused01">Unused?</option>
         <option bit="24" name="Multi_Layer_Parallax">Use Multilayer (inner-layer) Map</option>
         <option bit="25" name="Soft_Lighting">Use Soft Lighting Map</option>
@@ -6328,8 +6328,8 @@
         <option bit="27" name="Back_Lighting">Use Back Lighting Map</option>
         <option bit="28" name="Unused02">Unused?</option>
         <option bit="29" name="Tree_Anim">Enables Vertex Animation, Flutter Animation</option>
-        <option bit="30" name="Effect_Lighting"></option>
-        <option bit="31" name="HD_LOD_Objects"></option>
+        <option bit="30" name="Effect_Lighting" />
+        <option bit="31" name="HD_LOD_Objects" />
     </bitflags>
 
     <bitflags name="Fallout4ShaderPropertyFlags1" storage="uint" prefix="F4SF1" versions="#FO4#">
@@ -6964,92 +6964,92 @@
     <enum name="ComponentFormat" storage="uint" since="V20_5_0_0">
         The data format of components.
         <option value="0x00000000" name="F_UNKNOWN">Unknown, or don't care, format.</option>
-        <option value="0x00010101" name="F_INT8_1"></option>
-        <option value="0x00020102" name="F_INT8_2"></option>
-        <option value="0x00030103" name="F_INT8_3"></option>
-        <option value="0x00040104" name="F_INT8_4"></option>
-        <option value="0x00010105" name="F_UINT8_1"></option>
-        <option value="0x00020106" name="F_UINT8_2"></option>
-        <option value="0x00030107" name="F_UINT8_3"></option>
-        <option value="0x00040108" name="F_UINT8_4"></option>
-        <option value="0x00010109" name="F_NORMINT8_1"></option>
-        <option value="0x0002010A" name="F_NORMINT8_2"></option>
-        <option value="0x0003010B" name="F_NORMINT8_3"></option>
-        <option value="0x0004010C" name="F_NORMINT8_4"></option>
-        <option value="0x0001010D" name="F_NORMUINT8_1"></option>
-        <option value="0x0002010E" name="F_NORMUINT8_2"></option>
-        <option value="0x0003010F" name="F_NORMUINT8_3"></option>
-        <option value="0x00040110" name="F_NORMUINT8_4"></option>
-        <option value="0x00010211" name="F_INT16_1"></option>
-        <option value="0x00020212" name="F_INT16_2"></option>
-        <option value="0x00030213" name="F_INT16_3"></option>
-        <option value="0x00040214" name="F_INT16_4"></option>
-        <option value="0x00010215" name="F_UINT16_1"></option>
-        <option value="0x00020216" name="F_UINT16_2"></option>
-        <option value="0x00030217" name="F_UINT16_3"></option>
-        <option value="0x00040218" name="F_UINT16_4"></option>
-        <option value="0x00010219" name="F_NORMINT16_1"></option>
-        <option value="0x0002021A" name="F_NORMINT16_2"></option>
-        <option value="0x0003021B" name="F_NORMINT16_3"></option>
-        <option value="0x0004021C" name="F_NORMINT16_4"></option>
-        <option value="0x0001021D" name="F_NORMUINT16_1"></option>
-        <option value="0x0002021E" name="F_NORMUINT16_2"></option>
-        <option value="0x0003021F" name="F_NORMUINT16_3"></option>
-        <option value="0x00040220" name="F_NORMUINT16_4"></option>
-        <option value="0x00010421" name="F_INT32_1"></option>
-        <option value="0x00020422" name="F_INT32_2"></option>
-        <option value="0x00030423" name="F_INT32_3"></option>
-        <option value="0x00040424" name="F_INT32_4"></option>
-        <option value="0x00010425" name="F_UINT32_1"></option>
-        <option value="0x00020426" name="F_UINT32_2"></option>
-        <option value="0x00030427" name="F_UINT32_3"></option>
-        <option value="0x00040428" name="F_UINT32_4"></option>
-        <option value="0x00010429" name="F_NORMINT32_1"></option>
-        <option value="0x0002042A" name="F_NORMINT32_2"></option>
-        <option value="0x0003042B" name="F_NORMINT32_3"></option>
-        <option value="0x0004042C" name="F_NORMINT32_4"></option>
-        <option value="0x0001042D" name="F_NORMUINT32_1"></option>
-        <option value="0x0002042E" name="F_NORMUINT32_2"></option>
-        <option value="0x0003042F" name="F_NORMUINT32_3"></option>
-        <option value="0x00040430" name="F_NORMUINT32_4"></option>
-        <option value="0x00010231" name="F_FLOAT16_1"></option>
-        <option value="0x00020232" name="F_FLOAT16_2"></option>
-        <option value="0x00030233" name="F_FLOAT16_3"></option>
-        <option value="0x00040234" name="F_FLOAT16_4"></option>
-        <option value="0x00010435" name="F_FLOAT32_1"></option>
-        <option value="0x00020436" name="F_FLOAT32_2"></option>
-        <option value="0x00030437" name="F_FLOAT32_3"></option>
-        <option value="0x00040438" name="F_FLOAT32_4"></option>
-        <option value="0x00010439" name="F_UINT_10_10_10_L1"></option>
-        <option value="0x0001043A" name="F_NORMINT_10_10_10_L1"></option>
-        <option value="0x0001043B" name="F_NORMINT_11_11_10"></option>
-        <option value="0x0004013C" name="F_NORMUINT8_4_BGRA"></option>
-        <option value="0x0001043D" name="F_NORMINT_10_10_10_2"></option>
-        <option value="0x0001043E" name="F_UINT_10_10_10_2"></option>
+        <option value="0x00010101" name="F_INT8_1" />
+        <option value="0x00020102" name="F_INT8_2" />
+        <option value="0x00030103" name="F_INT8_3" />
+        <option value="0x00040104" name="F_INT8_4" />
+        <option value="0x00010105" name="F_UINT8_1" />
+        <option value="0x00020106" name="F_UINT8_2" />
+        <option value="0x00030107" name="F_UINT8_3" />
+        <option value="0x00040108" name="F_UINT8_4" />
+        <option value="0x00010109" name="F_NORMINT8_1" />
+        <option value="0x0002010A" name="F_NORMINT8_2" />
+        <option value="0x0003010B" name="F_NORMINT8_3" />
+        <option value="0x0004010C" name="F_NORMINT8_4" />
+        <option value="0x0001010D" name="F_NORMUINT8_1" />
+        <option value="0x0002010E" name="F_NORMUINT8_2" />
+        <option value="0x0003010F" name="F_NORMUINT8_3" />
+        <option value="0x00040110" name="F_NORMUINT8_4" />
+        <option value="0x00010211" name="F_INT16_1" />
+        <option value="0x00020212" name="F_INT16_2" />
+        <option value="0x00030213" name="F_INT16_3" />
+        <option value="0x00040214" name="F_INT16_4" />
+        <option value="0x00010215" name="F_UINT16_1" />
+        <option value="0x00020216" name="F_UINT16_2" />
+        <option value="0x00030217" name="F_UINT16_3" />
+        <option value="0x00040218" name="F_UINT16_4" />
+        <option value="0x00010219" name="F_NORMINT16_1" />
+        <option value="0x0002021A" name="F_NORMINT16_2" />
+        <option value="0x0003021B" name="F_NORMINT16_3" />
+        <option value="0x0004021C" name="F_NORMINT16_4" />
+        <option value="0x0001021D" name="F_NORMUINT16_1" />
+        <option value="0x0002021E" name="F_NORMUINT16_2" />
+        <option value="0x0003021F" name="F_NORMUINT16_3" />
+        <option value="0x00040220" name="F_NORMUINT16_4" />
+        <option value="0x00010421" name="F_INT32_1" />
+        <option value="0x00020422" name="F_INT32_2" />
+        <option value="0x00030423" name="F_INT32_3" />
+        <option value="0x00040424" name="F_INT32_4" />
+        <option value="0x00010425" name="F_UINT32_1" />
+        <option value="0x00020426" name="F_UINT32_2" />
+        <option value="0x00030427" name="F_UINT32_3" />
+        <option value="0x00040428" name="F_UINT32_4" />
+        <option value="0x00010429" name="F_NORMINT32_1" />
+        <option value="0x0002042A" name="F_NORMINT32_2" />
+        <option value="0x0003042B" name="F_NORMINT32_3" />
+        <option value="0x0004042C" name="F_NORMINT32_4" />
+        <option value="0x0001042D" name="F_NORMUINT32_1" />
+        <option value="0x0002042E" name="F_NORMUINT32_2" />
+        <option value="0x0003042F" name="F_NORMUINT32_3" />
+        <option value="0x00040430" name="F_NORMUINT32_4" />
+        <option value="0x00010231" name="F_FLOAT16_1" />
+        <option value="0x00020232" name="F_FLOAT16_2" />
+        <option value="0x00030233" name="F_FLOAT16_3" />
+        <option value="0x00040234" name="F_FLOAT16_4" />
+        <option value="0x00010435" name="F_FLOAT32_1" />
+        <option value="0x00020436" name="F_FLOAT32_2" />
+        <option value="0x00030437" name="F_FLOAT32_3" />
+        <option value="0x00040438" name="F_FLOAT32_4" />
+        <option value="0x00010439" name="F_UINT_10_10_10_L1" />
+        <option value="0x0001043A" name="F_NORMINT_10_10_10_L1" />
+        <option value="0x0001043B" name="F_NORMINT_11_11_10" />
+        <option value="0x0004013C" name="F_NORMUINT8_4_BGRA" />
+        <option value="0x0001043D" name="F_NORMINT_10_10_10_2" />
+        <option value="0x0001043E" name="F_UINT_10_10_10_2" />
     </enum>
 
     <enum name="DataStreamUsage" storage="uint" since="V20_5_0_0">
         Determines how a data stream is used?
-        <option value="0" name="USAGE_VERTEX_INDEX"></option>
-        <option value="1" name="USAGE_VERTEX"></option>
-        <option value="2" name="USAGE_SHADER_CONSTANT"></option>
-        <option value="3" name="USAGE_USER"></option>
+        <option value="0" name="USAGE_VERTEX_INDEX" />
+        <option value="1" name="USAGE_VERTEX" />
+        <option value="2" name="USAGE_SHADER_CONSTANT" />
+        <option value="3" name="USAGE_USER" />
     </enum>
 
     <bitflags name="DataStreamAccess" storage="uint" since="V20_5_0_0">
         Determines how the data stream is accessed?
-        <option bit="0" name="CPU Read"></option>
-        <option bit="1" name="CPU Write Static"></option>
-        <option bit="2" name="CPU Write Mutable"></option>
-        <option bit="3" name="CPU Write Volatile"></option>
-        <option bit="4" name="GPU Read"></option>
-        <option bit="5" name="GPU Write"></option>
-        <option bit="6" name="CPU Write Static Inititialized"></option>
+        <option bit="0" name="CPU Read" />
+        <option bit="1" name="CPU Write Static" />
+        <option bit="2" name="CPU Write Mutable" />
+        <option bit="3" name="CPU Write Volatile" />
+        <option bit="4" name="GPU Read" />
+        <option bit="5" name="GPU Write" />
+        <option bit="6" name="CPU Write Static Inititialized" />
     </bitflags>
 
     <niobject name="NiDataStream" inherit="NiObject" module="NiMesh" since="V20_5_0_0">
-        <field name="Usage" type="DataStreamUsage" abstract="true"></field>
-        <field name="Access" type="DataStreamAccess" abstract="true"></field>
+        <field name="Usage" type="DataStreamUsage" abstract="true" />
+        <field name="Access" type="DataStreamAccess" abstract="true" />
         <field name="Num Bytes" type="uint">The size in bytes of this data stream.</field>
         <field name="Cloning Behavior" type="CloningBehavior" default="CLONING_SHARE" />
         <field name="Num Regions" type="uint">Number of regions (such as submeshes).</field>
@@ -7956,8 +7956,8 @@
     <niobject name="NiFurSpringController" inherit="NiTimeController" module="NiCustom" versions="V10_2_0_0__1">
         Blood Bowl Specific
         Used on things like hair/tails in conjunction with bones to animate them.
-        <field name="Unknown Float" type="float"></field>
-        <field name="Unknown Float 2" type="float"></field>
+        <field name="Unknown Float" type="float" />
+        <field name="Unknown Float 2" type="float" />
         <field name="Num Bones" type="uint">The number of node bones referenced as influences.</field>
         <field name="Bones" type="Ptr" template="NiNode" arr1="Num Bones">List of all armature bones.</field>
         <field name="Num Bones 2" type="uint">The number of node bones referenced as influences.</field>
@@ -8039,9 +8039,9 @@
         using the default values.
         Name should be 'INV' (without the quotes).
         For rotations, a short of "4712" appears as "4.712" but "959" appears as "0.959"  meshes\weapons\daedric\daedricbowskinned.nif
-        <field name="Rotation X" type="ushort" default="4712"></field>
-        <field name="Rotation Y" type="ushort" default="6283"></field>
-        <field name="Rotation Z" type="ushort" default="0"></field>
+        <field name="Rotation X" type="ushort" default="4712" />
+        <field name="Rotation Y" type="ushort" default="6283" />
+        <field name="Rotation Z" type="ushort" default="0" />
         <field name="Zoom" type="float" default="1.0">Zoom factor.</field>
     </niobject>
 
