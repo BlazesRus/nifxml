@@ -27,11 +27,12 @@
             A version without any `{{}}` names implies that this version is "secondary".
             Note: A unique game name should only have `{{}}` around it once.
     -->
+<!-- version needs support for the other version tags before update list-->
     <version num="2.3">Dark Age of Camelot</version>
     <version num="3.0">Star Trek: Bridge Commander</version>
     <version num="3.03">Dark Age of Camelot</version>
     <version num="3.1">Dark Age of Camelot, Star Trek: Bridge Commander</version>
-    <version num="3.3.0.13">Oblivion</version>
+    <version num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
     <version num="4.0.0.0">Freedom Force</version>
     <version num="4.0.0.2">Morrowind, Freedom Force</version>
     <version num="4.1.0.12">Dark Age of Camelot</version>
@@ -65,200 +66,6 @@
     <version num="30.0.0.2">Emerge</version>
     <version num="30.1.0.3">Rocksmith, Rocksmith 2014</version>
     <version num="30.2.0.3">Ghost In The Shell: First Assault, MapleStory 2</version>
-<!--
-    <version id="V2_3" num="2.3" supported="false">Dark Age of Camelot</version>
-    <version id="V3_0" num="3.0" supported="false">Star Trek: Bridge Commander</version>
-    <version id="V3_03" num="3.03" supported="false">Dark Age of Camelot</version>
-    <version id="V3_1" num="3.1" supported="false">Dark Age of Camelot, Star Trek: Bridge Commander</version>
-    <version id="V3_3_0_13" num="3.3.0.13">{{Munch's Oddysee}}, Oblivion</version>
-    <version id="V4_0_0_0" num="4.0.0.0">Freedom Force</version>
-    <version id="V4_0_0_2" num="4.0.0.2">{{Morrowind}}, {{Freedom Force}}</version>
-    <version id="V4_1_0_12" num="4.1.0.12">Dark Age of Camelot</version>
-    <version id="V4_2_0_2" num="4.2.0.2">Civilization IV</version>
-    <version id="V4_2_1_0" num="4.2.1.0">Dark Age of Camelot, Civilization IV</version>
-    <version id="V4_2_2_0" num="4.2.2.0">{{Culpa Innata}}, Civilization IV, Dark Age of Camelot, Empire Earth II</version>
-    <version id="V10_0_1_0" num="10.0.1.0">{{Zoo Tycoon 2}}, Civilization IV, Oblivion</version>
-    <version id="V10_0_1_2" num="10.0.1.2" bsver="1 3">Oblivion</version>
-    <version id="V10_1_0_0" num="10.1.0.0">{{Freedom Force vs. the 3rd Reich}}, {{Axis and Allies}}, {{Empire Earth II}}, {{Kohan 2}}, {{Sid Meier's Pirates!}}, Dark Age of Camelot, Civilization IV, Wildlife Park 2, The Guild 2, NeoSteam</version>
-    <version id="V10_1_0_101" num="10.1.0.101" user="10" bsver="4">Oblivion</version>
-    <version id="V10_1_0_106" num="10.1.0.106" user="10" bsver="5">Oblivion</version>
-    <version id="V10_2_0_0" num="10.2.0.0" user="0">{{Pro Cycling Manager}}, {{Prison Tycoon}}, {{Red Ocean}}, {{Wildlife Park 2}}, Civilization IV, Loki</version>
-    <version id="V10_2_0_0__1" num="10.2.0.0" user="1">{{Blood Bowl}}</version>
-    <version id="V10_2_0_0__10" num="10.2.0.0" user="10" bsver="6 7 8 9">Oblivion</version>
-    <version id="V10_2_0_1" num="10.2.0.1" custom="true">WorldShift</version>
-    <version id="V10_3_0_1" num="10.3.0.1" custom="true">WorldShift</version>
-    <version id="V10_4_0_1" num="10.4.0.1" custom="true">{{WorldShift}}</version>
-    <version id="V20_0_0_4" num="20.0.0.4" user="0">{{Civilization IV}}, {{Sid Meier's Railroads}}, Florensia, Ragnarok Online 2, IRIS Online</version>
-    <version id="V20_0_0_4__10" num="20.0.0.4" user="10" bsver="11">{{Oblivion KF}}</version>
-    <version id="V20_0_0_4__11" num="20.0.0.4" user="11" bsver="11">Fallout 3</version>
-    <version id="V20_0_0_5_OBL" num="20.0.0.5" user="10" bsver="11">{{Oblivion}}</version>
-    <version id="V20_1_0_3" num="20.1.0.3">{{Shin Megami Tensei: Imagine}}</version>
-    <version id="V20_2_0_7" num="20.2.0.7" user="0">{{Florensia}}, Empire Earth III, Atlantica Online, IRIS Online, Wizard101</version>
-    <version id="V20_2_0_7__11_1" num="20.2.0.7" user="11" bsver="14">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7__11_2" num="20.2.0.7" user="11" bsver="16" ext="rdt">Fallout 3</version>
-    <version id="V20_2_0_7__11_3" num="20.2.0.7" user="11" bsver="21">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7__11_4" num="20.2.0.7" user="11" bsver="24">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7__11_5" num="20.2.0.7" user="11" bsver="25">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7__11_6" num="20.2.0.7" user="11" bsver="26">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7__11_7" num="20.2.0.7" user="11" bsver="27 28">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7__11_8" num="20.2.0.7" user="11" bsver="30 31 32 33">Fallout 3, Fallout NV</version>
-    <version id="V20_2_0_7_FO3" num="20.2.0.7" user="11" bsver="34" ext="rdt">{{Fallout 3}}, {{Fallout NV}}</version>
-    <version id="V20_2_0_7_SKY" num="20.2.0.7" user="12" bsver="83" ext="bto btr">{{Skyrim}}</version>
-    <version id="V20_2_0_7_SSE" num="20.2.0.7" user="12" bsver="100" ext="bto btr">{{Skyrim SE}}</version>
-    <version id="V20_2_0_7_FO4" num="20.2.0.7" user="12" bsver="130" ext="bto btr">{{Fallout 4}}</version>
-    <version id="V20_2_0_7_F76" num="20.2.0.7" user="12" bsver="155" ext="bto">{{Fallout 76}}</version>
-    <version id="V20_2_0_8" num="20.2.0.8" ext="nifcache">{{Empire Earth III}}, {{FFT Online}}, Atlantica Online, IRIS Online, Wizard101</version>
-    <version id="V20_3_0_1" num="20.3.0.1">Emerge</version>
-    <version id="V20_3_0_2" num="20.3.0.2">Emerge</version>
-    <version id="V20_3_0_3" num="20.3.0.3">Emerge</version>
-    <version id="V20_3_0_6" num="20.3.0.6">Emerge</version>
-    <version id="V20_3_0_9" num="20.3.0.9" user="0 0x10000" ext="nft item">{{Bully SE}}, Warhammer, Lazeska, Howling Sword, Ragnarok Online 2, Divinity 2 (0x10000)</version>
-    <version id="V20_3_0_9_DIV2" num="20.3.0.9" user="0x20000 0x30000" ext="item">{{Divinity 2}}</version>
-    <version id="V20_5_0_0" num="20.5.0.0">MicroVolts, KrazyRain</version>
-    <version id="V20_6_0_0" num="20.6.0.0">{{MicroVolts}}, {{IRIS Online}}, {{Ragnarok Online 2}}, KrazyRain, Atlantica Online, Wizard101</version>
-    <version id="V20_6_5_0_DEM" num="20.6.5.0" user="17" supported="false">Epic Mickey 2</version>
-    <version id="V30_0_0_2" num="30.0.0.2">Emerge</version>
-    <version id="V30_1_0_1" num="30.1.0.1">Emerge</version>
-    <version id="V30_1_0_3" num="30.1.0.3">Rocksmith, Rocksmith 2014</version>
-    <version id="V30_2_0_3" num="30.2.0.3">Ghost In The Shell: First Assault, MapleStory 2</version>
--->
-
-<!--
-    <module name="NiMain" priority="0" />
-    <module name="NiAnimation" priority="25" depends="NiMain" />
-    <module name="NiParticle" priority="50" depends="NiMain NiAnimation" />
-    <module name="NiMesh" priority="70" depends="NiMain NiAnimation" />
-    <module name="NiPSParticle" priority="80" depends="NiMain NiMesh NiAnimation" />
-    <module name="NiPhysX" priority="90" depends="NiMain NiMesh NiPSParticle" />
-    <module name="NiLegacy" priority="99" depends="NiMain NiAnimation NiParticle" />
-    <module name="BSMain" priority="100" depends="NiMain" custom="true" />
-    <module name="BSAnimation" priority="125" depends="NiMain BSMain NiAnimation" custom="true" />
-    <module name="BSParticle" priority="150" depends="NiMain NiParticle" custom="true" />
-    <module name="BSHavok" priority="190" depends="NiMain" custom="true" />
-    <module name="BSLegacy" priority="199" depends="NiMain NiLegacy" custom="true" />
-    <module name="NiCustom" priority="255" depends="NiMain NiParticle" custom="true" />
-
-    <token name="verexpr" attrs="vercond">
-        Commonly used version expressions.
-        NOTE: `string` should be wrapped in parentheses for string subsitutions in larger expressions.
-        NOTE: BSVER 'Greater Than' Expressions only ever apply to BS i.e. BSVER GT 0.
-        WARNING: BSVER 'Less Than' Expressions also apply to NI i.e. BSVER EQ 0.
-        <verexpr token="#NISTREAM#" string="(#BSVER# #EQ# 0)">NiStream that are not Bethesda.</verexpr>
-        <verexpr token="#BSSTREAM#" string="(#BSVER# #GT# 0)">NiStream that are Bethesda.</verexpr>
-        <verexpr token="#NI_BS_LTE_16#" string="(#BSVER# #LTE# 16)">All NI + BS until BSVER 16.</verexpr>
-        <verexpr token="#NI_BS_LT_FO3#" string="(#BSVER# #LT# 34)">All NI + BS before Fallout 3.</verexpr>
-        <verexpr token="#NI_BS_LTE_FO3#" string="(#BSVER# #LTE# 34)">All NI + BS until Fallout 3.</verexpr>
-        <verexpr token="#NI_BS_LT_SSE#" string="(#BSVER# #LT# 100)">All NI + BS before SSE.</verexpr>
-        <verexpr token="#NI_BS_LT_FO4#" string="(#BSVER# #LT# 130)">All NI + BS before Fallout 4.</verexpr>
-        <verexpr token="#NI_BS_LTE_FO4#" string="(#BSVER# #LTE# 130)">All NI + BS until Fallout 4.</verexpr>
-        <verexpr token="#BS_GT_FO3#" string="(#BSVER# #GT# 34)">Skyrim, SSE, and Fallout 4</verexpr>
-        <verexpr token="#BS_GTE_FO3#" string="(#BSVER# #GTE# 34)">FO3 and later.</verexpr>
-        <verexpr token="#BS_GTE_SKY#" string="(#BSVER# #GTE# 83)">Skyrim and later.</verexpr>
-        <verexpr token="#BS_GTE_SSE#" string="(#BSVER# #GTE# 100)">SSE and later.</verexpr>
-        <verexpr token="#BS_SSE#" string="(#BSVER# #EQ# 100)">SSE only.</verexpr>
-        <verexpr token="#BS_FO4#" string="(#BSVER# #EQ# 130)">Fallout 4 only.</verexpr>
-        <verexpr token="#BS_GTE_FO4#" string="(#BSVER# #GTE# 130)">Fallout 4 and FO76.</verexpr>
-        <verexpr token="#BS_F76#" string="(#BSVER# #EQ# 155)">Fallout 76 only.</verexpr>
-        <verexpr token="#BS202#" string="((#VER# #EQ# 20.2.0.7) #AND# (#BSVER# #GT# 0))">Bethesda 20.2 only.</verexpr>
-        <verexpr token="#DIVINITY2#" string="((#USER# #EQ# 0x20000) #OR# (#USER# #EQ# 0x30000))">Divinity 2</verexpr>
-    </token>
-
-    <token name="condexpr" attrs="cond">
-        <condexpr token="#BSSTREAMHEADER#" string="(Version #EQ# 10.0.1.2) #OR# ((Version #EQ# 20.2.0.7) #OR# (Version #EQ# 20.0.0.5) #OR# ((Version #GTE# 10.1.0.0) #AND# (Version #LTE# 20.0.0.4) #AND# (User Version #LTE# 11))) #AND# (User Version #GTE# 3)" />
-    </token>
-
-    <token name="verset" attrs="versions">
-        The set of versions that any Basic, Compound, NiObject, Enum, or Bitflags is restricted to.
-        <verset token="#BETHESDA#" string="V10_0_1_2 V10_1_0_101 V10_1_0_106 V10_2_0_0__10 V20_0_0_4__10 V20_0_0_4__11 V20_0_0_5_OBL V20_2_0_7__11_1 V20_2_0_7__11_2 V20_2_0_7__11_3 V20_2_0_7__11_4 V20_2_0_7__11_5 V20_2_0_7__11_6 V20_2_0_7__11_7 V20_2_0_7__11_8 V20_2_0_7_FO3 V20_2_0_7_SKY V20_2_0_7_SSE V20_2_0_7_FO4 V20_2_0_7_F76" />
-        <verset token="#FO3#" string="V20_0_0_4__11 V20_2_0_7__11_1 V20_2_0_7__11_2 V20_2_0_7__11_3 V20_2_0_7__11_4 V20_2_0_7__11_5 V20_2_0_7__11_6 V20_2_0_7__11_7 V20_2_0_7__11_8 V20_2_0_7_FO3" />
-        <verset token="#SKY#" string="V20_2_0_7_SKY" />
-        <verset token="#SSE#" string="V20_2_0_7_SSE" />
-        <verset token="#FO4#" string="V20_2_0_7_FO4" />
-        <verset token="#F76#" string="V20_2_0_7_F76" />
-        <verset token="#FO3_AND_LATER#" string="V20_0_0_4__11 V20_2_0_7__11_1 V20_2_0_7__11_2 V20_2_0_7__11_3 V20_2_0_7__11_4 V20_2_0_7__11_5 V20_2_0_7__11_6 V20_2_0_7__11_7 V20_2_0_7__11_8 V20_2_0_7_FO3 V20_2_0_7_SKY V20_2_0_7_SSE V20_2_0_7_FO4 V20_2_0_7_F76" />
-        <verset token="#SKY_AND_LATER#" string="V20_2_0_7_SKY V20_2_0_7_SSE V20_2_0_7_FO4 V20_2_0_7_F76" />
-    </token>
-
-    <token name="default" attrs="default">
-        Commonly used default values.
-        <default token="#UINT_MAX#" string="0xFFFFFFFF" />
-        <default token="#USHRT_MAX#" string="0xFFFF" />
-        <default token="#BYTE_MAX#" string="0xFF" />
-        <default token="#INT_MAX#" string="2147483647" />
-        <default token="#INT_MIN#" string="-2147483648" />
-        <default token="#CHAR_MAX#" string="127" />
-        <default token="#CHAR_MIN#" string="-128" />
-        <default token="#VEC2_ONE#" string="1.0, 1.0" />
-        <default token="#VEC3_ONE#" string="1.0, 1.0, 1.0" />
-        <default token="#VEC3_ZERO#" string="0.0, 0.0, 0.0" />
-        <default token="#VEC4_ONE#" string="1.0, 1.0, 1.0, 1.0" />
-        <default token="#VEC4_ZERO#" string="0.0, 0.0, 0.0, 0.0" />
-        <default token="#VEC4_1110#" string="1.0, 1.0, 1.0, 0.0" />
-        <default token="#X_AXIS#" string="1.0, 0.0, 0.0" />
-        <default token="#Y_AXIS#" string="0.0, 1.0, 0.0" />
-        <default token="#Z_AXIS#" string="0.0, 0.0, 1.0" />
-        <default token="#NEG_X_AXIS#" string="-1.0, 0.0, 0.0" />
-        <default token="#NEG_Y_AXIS#" string="0.0, -1.0, 0.0" />
-        <default token="#NEG_Z_AXIS#" string="0.0, 0.0, -1.0" />
-        <default token="#FLT_MAX#" string="3.402823466e+38" />
-        <default token="#FLT_MIN#" string="-3.402823466e+38" />
-        <default token="#INV_FLT#" string="-3.402823466e+38" />
-        <default token="#INV_VEC3#" string="-3.402823466e+38, -3.402823466e+38, -3.402823466e+38" />
-        <default token="#INV_VEC4#" string="-3.402823466e+38, -3.402823466e+38, -3.402823466e+38, -3.402823466e+38" />
-    </token>
-
-    <token name="range" attrs="range">
-        Commonly used range values.
-        <range token="#F_POS#" string="0.0:" />
-        <range token="#F_NEG#" string=":-0.0" />
-        <range token="#F_PNZ#" string="0.000001:" />
-        <range token="#F_NNZ#" string=":-0.000001" />
-        <range token="#F_NRM#" string="-1.0:1.0" />
-        <range token="#F_DEG#" string="-360.0:360.0" />
-        <range token="#F0_1#" string="0.0:1.0" />
-        <range token="#F0_PI#" string="0.0:3.1415926" />
-        <range token="#F0_10#" string="0.0:10.0" />
-        <range token="#F0_100#" string="0.0:100.0" />
-        <range token="#F0_999#" string="0.0:999.0" />
-        <range token="#F0_1000#" string="0.0:1000.0" />
-        <range token="#F0_10000#" string="0.0:10000.0" />
-        <range token="#FPM_1#" string="-1.0:1.0" />
-        <range token="#FPM_PI#" string="-3.1415926:3.1415926" />
-        <range token="#FPM_10#" string="-10.0:10.0" />
-        <range token="#FPM_100#" string="-100.0:100.0" />
-        <range token="#FPM_1000#" string="-1000.0:1000.0" />
-    </token>
-
-    <token name="global" attrs="vercond">
-        Global Tokens.
-        NOTE: These must be listed after the above tokens so that they replace last. For example, `verexpr` uses these tokens.
-        <global token="#VER#" string="Version" />
-        <global token="#USER#" string="User Version" />
-        <global token="#BSVER#" string="BS Header\BS Version" />
-    </token>
-
-    <token name="operator" attrs="cond vercond arr1 arr2 arg">
-        All Operators except for unary not (!), parentheses, and member of (\)
-        NOTE: These can be ignored entirely by string substitution and dealt with directly.
-        NOTE: These must be listed after the above tokens so that they replace last. For example, `verexpr` uses these tokens.
-        <operator token="#ADD#" string="+" />
-        <operator token="#SUB#" string="-" />
-        <operator token="#MUL#" string="*" />
-        <operator token="#DIV#" string="/" />
-        <operator token="#AND#" string="&amp;&amp;" />
-        <operator token="#OR#" string="||" />
-        <operator token="#LT#" string="&lt;" />
-        <operator token="#GT#" string="&gt;" />
-        <operator token="#LTE#" string="&lt;=" />
-        <operator token="#GTE#" string="&gt;=" />
-        <operator token="#EQ#" string="==" />
-        <operator token="#NEQ#" string="!=" />
-        <operator token="#RSH#" string="&gt;&gt;" />
-        <operator token="#LSH#" string="&lt;&lt;" />
-        <operator token="#BITAND#" string="&amp;" />
-        <operator token="#BITOR#" string="|" />
-    </token>
--->
 
     <!--Basic Types-->
 
@@ -366,7 +173,7 @@
         These are like C enums and consist of a list of options.  They can appear
         as parts of compounds or niobjects.-->
 
-    <bitflags name="AccumFlags" storage="uint"><!--value is equivalant of bit from newer xml file-->
+    <bitflags name="AccumFlags" storage="uint">
         Describes the options for the accum root on NiControllerSequence.
         <option value="0" name="ACCUM_X_TRANS">X Translation will be accumulated.</option>
         <option value="1" name="ACCUM_Y_TRANS">Y Translation will be accumulated.</option>
@@ -414,7 +221,7 @@
         <option value="5" name="CONST_KEY">Step function. Used for visibility keys in NiBoolData.</option>
     </enum>
 
-    <enum name="OblivionHavokMaterial" storage="uint"><!--versions="#BETHESDA#"-->
+    <enum name="OblivionHavokMaterial" storage="uint">
         Bethesda Havok. Material descriptor for a Havok shape in Oblivion.
         <option value="0" name="OB_HAV_MAT_STONE">Stone</option>
         <option value="1" name="OB_HAV_MAT_CLOTH">Cloth</option>
@@ -450,7 +257,7 @@
         <option value="31" name="OB_HAV_MAT_RUBBER">Rubber</option>
     </enum>
 
-    <enum name="Fallout3HavokMaterial" storage="uint"><!--versions="#BETHESDA#"-->
+    <enum name="Fallout3HavokMaterial" storage="uint">
         Bethesda Havok. Material descriptor for a Havok shape in Fallout 3 and Fallout NV.
         <option value="0" name="FO_HAV_MAT_STONE">Stone</option>
         <option value="1" name="FO_HAV_MAT_CLOTH">Cloth</option>
@@ -582,7 +389,7 @@
         <option value="127" name="FO_HAV_MAT_RUBBER_BALL_STAIRS_PLATFORM">Rubber Ball</option>
     </enum>
 
-    <enum name="SkyrimHavokMaterial" storage="uint"><!--versions="#SKY_AND_LATER#"-->
+    <enum name="SkyrimHavokMaterial" storage="uint">
         Bethesda Havok. Material descriptor for a Havok shape in Skyrim.
         <option value="131151687" name="SKY_HAV_MAT_BROKEN_STONE">Broken Stone</option>
         <option value="365420259" name="SKY_HAV_MAT_LIGHT_WOOD">Light Wood</option>
@@ -647,7 +454,7 @@
         <option value="4283869410" name="SKY_HAV_MAT_MATERIAL_BOULDER_MEDIUM">Material Boulder Medium</option>
     </enum>
 
-    <enum name="OblivionLayer" storage="byte"><!--versions="#SKY_AND_LATER#"-->
+    <enum name="OblivionLayer" storage="byte">
         Bethesda Havok. Describes the collision layer a body belongs to in Oblivion.
         <option value="0" name="OL_UNIDENTIFIED">Unidentified (white)</option>
         <option value="1" name="OL_STATIC">Static (red)</option>
@@ -709,7 +516,7 @@
         <option value="57" name="OL_NULL">Null</option>
     </enum>
 
-    <enum name="Fallout3Layer" storage="byte"><!--versions="#BETHESDA#"-->
+    <enum name="Fallout3Layer" storage="byte">
         Bethesda Havok. Describes the collision layer a body belongs to in Fallout 3 and Fallout NV.
         <option value="0" name="FOL_UNIDENTIFIED">Unidentified (white)</option>
         <option value="1" name="FOL_STATIC">Static (red)</option>
@@ -757,7 +564,7 @@
         <option value="43" name="FOL_NULL">Null (white)</option>
     </enum>
 
-    <enum name="SkyrimLayer" storage="byte"><!--versions="#SKY_AND_LATER#"-->
+    <enum name="SkyrimLayer" storage="byte">
         Bethesda Havok. Describes the collision layer a body belongs to in Skyrim.
         <option value="0" name="SKYL_UNIDENTIFIED">Unidentified</option>
         <option value="1" name="SKYL_STATIC">Static</option>
@@ -989,14 +796,14 @@
         <option value="6" name="FILTER_ANISOTROPIC">Anisotropic filtering. One or many trilinear samples depending on anisotropy.</option>
     </enum>
 
-    <enum name="VertMode" storage="uint"><!--Same as SourceVertexMode-->
+    <enum name="VertMode" storage="uint">
         Describes how to apply vertex colors for NiVertexColorProperty.
         <option value="0" name="VERT_MODE_SRC_IGNORE">Emissive, ambient, and diffuse colors are all specified by the NiMaterialProperty.</option>
         <option value="1" name="VERT_MODE_SRC_EMISSIVE">Emissive colors are specified by the source vertex colors. Ambient+Diffuse are specified by the NiMaterialProperty.</option>
         <option value="2" name="VERT_MODE_SRC_AMB_DIF">Ambient+Diffuse colors are specified by the source vertex colors. Emissive is specified by the NiMaterialProperty. (Default)</option>
     </enum>
 
-    <enum name="LightMode" storage="uint"><!--Same as LightingMode-->
+    <enum name="LightMode" storage="uint">
         Describes which lighting equation components influence the final vertex color for NiVertexColorProperty.
         <option value="0" name="LIGHT_MODE_EMISSIVE">Emissive.</option>
         <option value="1" name="LIGHT_MODE_EMI_AMB_DIF">Emissive + Ambient + Diffuse. (Default)</option>
@@ -1058,7 +865,7 @@
         <option value="3" name="DRAW_BOTH">Draw all triangles, regardless of orientation. (Effectively force double-sided)</option>
     </enum>
 
-    <enum name="ZCompareMode" storage="uint"><!--Same as TestFunction except for separate names for same values-->
+    <enum name="ZCompareMode" storage="uint">
         Describes Z-buffer test modes for NiZBufferProperty.
         "Less than" = closer to camera, "Greater than" = further from camera.
         <option value="0" name="ZCOMP_ALWAYS">Always true. Buffer is ignored.</option>
@@ -1085,7 +892,7 @@
         <option value="9" name="INV_DEST_ALPHA" />
         <option value="10" name="SRC_ALPHA_SATURATE" />
     </enum>
-    
+
     <enum name="hkMotionType" storage="byte">
         Bethesda Havok, based on hkpMotion::MotionType. Motion type of a rigid body determines what happens when it is simulated.
         <option value="0" name="MO_SYS_INVALID">Invalid</option>
@@ -1100,7 +907,7 @@
         <option value="9" name="MO_SYS_CHARACTER">A specialized motion used for character controllers</option>
     </enum>
 
-    <enum name="hkDeactivatorType" storage="byte"><!--versions="#BETHESDA#"-->
+    <enum name="hkDeactivatorType" storage="byte">
         Bethesda Havok, based on hkpRigidBodyDeactivator::DeactivatorType.
         Deactivator Type determines which mechanism Havok will use to classify the body as deactivated.
         <option value="0" name="DEACTIVATOR_INVALID">Invalid</option>
@@ -1108,7 +915,7 @@
         <option value="2" name="DEACTIVATOR_SPATIAL">Tells Havok to use a spatial deactivation scheme. This makes use of high and low frequencies of positional motion to determine when deactivation should occur.</option>
     </enum>
 
-    <enum name="hkSolverDeactivation" storage="byte"><!--versions="#BETHESDA#"-->
+    <enum name="hkSolverDeactivation" storage="byte">
         Bethesda Havok, based on hkpRigidBodyCinfo::SolverDeactivation.
         A list of possible solver deactivation settings. This value defines how aggressively the solver deactivates objects.
         Note: Solver deactivation does not save CPU, but reduces creeping of movable objects in a pile quite dramatically.
@@ -1120,7 +927,7 @@
         <option value="5" name="SOLVER_DEACTIVATION_MAX">Very fast deactivation, visible artifacts.</option>
     </enum>
 
-    <enum name="hkQualityType" storage="byte"><!--versions="#BETHESDA#"-->
+    <enum name="hkQualityType" storage="byte">
         Bethesda Havok, based on hkpCollidableQualityType. Describes the priority and quality of collisions for a body,
             e.g. you may expect critical game play objects to have solid high-priority collisions so that they never sink into ground,
             or may allow penetrations for visual debris objects.
@@ -1265,7 +1072,7 @@
         <option value="5" name="HALFSPACE_BV">Half Space</option>
     </enum>
 
-    <enum name="hkResponseType" storage="byte"><!--versions="#BETHESDA#"-->
+    <enum name="hkResponseType" storage="byte">
         Bethesda Havok(hkpMaterial::ResponseType).
         <option value="0" name="RESPONSE_INVALID">Invalid Response</option>
         <option value="1" name="RESPONSE_SIMPLE_CONTACT">Do normal collision resolution</option>
@@ -1273,7 +1080,7 @@
         <option value="3" name="RESPONSE_NONE">Do nothing, ignore all the results.</option>
     </enum>
     
-    <enum name="BSDismemberBodyPartType" storage="ushort"><!--versions="#BETHESDA#"-->
+    <enum name="BSDismemberBodyPartType" storage="ushort">
         Biped bodypart data used for visibility control of triangles.  Options are Fallout 3, except where marked for Skyrim (uses SBP prefix)
         Skyrim BP names are listed only for vanilla names, different creatures have different defnitions for naming.
         <option value="0" name="BP_TORSO">Torso</option>
@@ -1376,7 +1183,7 @@
         <option value="13000" name="BP_TORSOSECTION_BRAIN">Torso Section | Brain</option>       
     </enum>
 	
-    <enum name="BSLightingShaderPropertyShaderType" storage="uint" prefix="ST"><!--Same as BSLightingShaderType--><!--versions="#SKY_AND_LATER#"-->
+    <enum name="BSLightingShaderPropertyShaderType" storage="uint" prefix="ST">
         Values for configuring the shader type in a BSLightingShaderProperty
         <option value="0" name="Default" />
         <option value="1" name="Environment Map">Enables EnvMap Mask(TS6), EnvMap Scale</option>
@@ -1409,8 +1216,8 @@
         <option value="4" name="Skin Tint" />
         <option value="5" name="Hair Tint" />
     </enum>
-    
-    <enum name="EffectShaderControlledVariable" storage="uint" prefix="ESCV"><!--versions="#SKY_AND_LATER#"-->
+
+    <enum name="EffectShaderControlledVariable" storage="uint" prefix="ESCV">
         An unsigned 32-bit integer, describing which float variable in BSEffectShaderProperty to animate.
         <option value="0" name="EmissiveMultiple">EmissiveMultiple.</option>
         <option value="1" name="Falloff Start Angle">Falloff Start Angle (degrees).</option>
@@ -1424,12 +1231,12 @@
         <option value="9" name="V Scale">V Scale.</option>
     </enum>
 
-    <enum name="EffectShaderControlledColor" storage="uint" prefix="ECSC"><!--versions="#SKY_AND_LATER#"-->
+    <enum name="EffectShaderControlledColor" storage="uint" prefix="ECSC">
         An unsigned 32-bit integer, describing which color in BSEffectShaderProperty to animate.
         <option value="0" name="Emissive Color">Emissive Color.</option>
     </enum>
 
-    <enum name="LightingShaderControlledVariable" storage="uint" prefix="LSCV"><!--versions="#SKY_AND_LATER#"-->
+    <enum name="LightingShaderControlledVariable" storage="uint" prefix="LSCV">
         An unsigned 32-bit integer, describing which float variable in BSLightingShaderProperty to animate.
         <option value="0" name="Refraction Strength">The amount of distortion.</option>
         <option value="8" name="Environment Map Scale">Environment Map Scale.</option>
@@ -1448,6 +1255,7 @@
         <option value="0" name="Unknown 1" />
         <option value="1" name="Unknown 2" />
     </enum>
+
     <enum name="LightingShaderControlledColor" storage="uint" prefix="LSCC">
         An unsigned 32-bit integer, describing which color in BSLightingShaderProperty to animate.
         <option value="0" name="Specular Color">Specular Color.</option>
@@ -1506,115 +1314,9 @@
         <option value="0" name="UPDATE_NORMALS_DISABLED" />
         <option value="1" name="UPDATE_NORMALS_ENABLED" />
     </enum>
-    
-    
+
     <!-- Bitfields -->
 
-    <bitfield name="TimeControllerFlags" storage="ushort">
-        Flags for NiTimeController
-        <member width="1" pos="0" mask="0x0001" name="Anim Type" type="AnimType" />
-        <member width="2" pos="1" mask="0x0006" name="Cycle Type" type="CycleType" default="CYCLE_CLAMP" />
-        <member width="1" pos="3" mask="0x0008" name="Active" type="bool" default="1" />
-        <member width="1" pos="4" mask="0x0010" name="Play Backwards" type="bool" />
-        <member width="1" pos="5" mask="0x0020" name="Manager Controlled" type="bool" />
-        <member width="1" pos="6" mask="0x0040" name="Compute Scaled Time" type="bool" default="1" />
-        <member width="1" pos="7" mask="0x0080" name="Forced Update" type="bool" />
-    </bitfield>
-
-    <bitfield name="AlphaFlags" storage="ushort">
-        Flags for NiAlphaProperty
-        <member width="1" pos="0" mask="0x0001" name="Alpha Blend" type="bool" />
-        <member width="4" pos="1" mask="0x001E" name="Source Blend Mode" type="AlphaFunction" default="SRC_ALPHA" />
-        <member width="4" pos="5" mask="0x01E0" name="Destination Blend Mode" type="AlphaFunction" default="INV_SRC_ALPHA" />
-        <member width="1" pos="9" mask="0x0200" name="Alpha Test" type="bool" default="1" />
-        <member width="3" pos="10" mask="0x1C00" name="Test Func" type="TestFunction" default="TEST_GREATER" />
-        <member width="1" pos="13" mask="0x2000" name="No Sorter" type="bool" />
-        <member width="1" pos="14" mask="0x4000" name="Clone Unique" type="bool">Bethesda-only. Always true for weapon blood after FO3.</member>
-        <member width="1" pos="15" mask="0x8000" name="Editor Alpha Threshold" type="bool">Bethesda-only. True if the Alpha Threshold is externally controlled.</member>
-    </bitfield>
-
-    <bitfield name="FogFlags" storage="ushort">
-        Flags for NiFogProperty
-        <member width="1" pos="0" mask="0x0001" name="Enable" type="bool" />
-        <member width="3" pos="1" mask="0x0006" name="Fog Function" type="FogFunction" />
-    </bitfield>
-
-    <bitfield name="StencilFlags" storage="ushort">
-        Flags for NiStencilProperty
-        <member width="1" pos="0" mask="0x0001" name="Enable" type="bool" />
-        <member width="3" pos="1" mask="0x000E" name="Fail Action" type="StencilAction" default="ACTION_KEEP" />
-        <member width="3" pos="4" mask="0x0070" name="ZFail Action" type="StencilAction" default="ACTION_KEEP" />
-        <member width="3" pos="7" mask="0x0380" name="Pass Action" type="StencilAction" default="ACTION_INCREMENT" />
-        <member width="2" pos="10" mask="0x0C00" name="Draw Mode" type="StencilDrawMode" default="DRAW_BOTH" />
-        <member width="3" pos="12" mask="0xF000" name="Test Func" type="StencilTestFunc" default="TEST_GREATER" />
-    </bitfield>
-
-    <bitfield name="TexturingFlags" storage="ushort">
-        Flags for NiTexturingProperty
-        <member width="1" pos="0" mask="0x0001" name="Multitexture" type="bool" />
-        <member width="3" pos="1" mask="0x000E" name="Apply Mode" type="ApplyMode" />
-        <member width="8" pos="4" mask="0x0FF0" name="Decal Count" type="ushort" />
-    </bitfield>
-
-    <bitfield name="TexturingMapFlags" storage="ushort">
-        Flags for NiTexturingProperty
-        <member width="8" pos="0" mask="0x00FF" name="Texture Index" type="ushort" />
-        <member width="4" pos="8" mask="0x0F00" name="Filter Mode" type="TexFilterMode" />
-        <member width="4" pos="12" mask="0x3000" name="Clamp Mode" type="TexClampMode" />
-    </bitfield>
-
-    <bitfield name="VertexColorFlags" storage="ushort">
-        Flags for NiVertexColorProperty
-        <member width="3" pos="0" mask="0x0007" name="Color Mode" type="ushort" />
-        <member width="1" pos="3" mask="0x0008" name="Lighting Mode" type="LightingMode" />
-        <member width="2" pos="4" mask="0x0030" name="Source Vertex Mode" type="SourceVertexMode" />
-    </bitfield>
-
-    <bitfield name="ZBufferFlags" storage="ushort">
-        Flags for NiZBufferProperty
-        <member width="1" pos="0" mask="0x0001" name="ZBuffer Test" type="bool" />
-        <member width="1" pos="1" mask="0x0002" name="ZBuffer Write" type="bool" />
-        <member width="3" pos="2" mask="0x003C" name="Test Func" type="TestFunction" />
-    </bitfield>
-
-    <enum name="AGDConsistencyType" storage="byte">
-        <option value="0" name="AGD_MUTABLE" />
-        <option value="1" name="AGD_STATIC" />
-        <option value="2" name="AGD_VOLATILE" />
-    </enum>
-
-    <bitfield name="NiAGDDataStreamFlags" storage="byte">
-        Flags for NiAGDDataStream
-        <member width="1" pos="0" mask="0x0001" name="Keep" type="bool" />
-        <member width="3" pos="1" mask="0x0006" name="Consistency Type" type="AGDConsistencyType" default="AGD_MUTABLE" />
-    </bitfield>
-
-    <enum name="NiNBTMethod" storage="ushort">
-        <option value="0" name="NBT_METHOD_NONE" />
-        <option value="1" name="NBT_METHOD_NDL" />
-        <option value="2" name="NBT_METHOD_MAX" />
-        <option value="3" name="NBT_METHOD_ATI" />
-    </enum>
-
-    <bitfield name="NiGeometryDataFlags" storage="ushort">
-        <member width="6" pos="0" mask="0x003F" name="Num UV Sets" type="bool" />
-        <member width="6" pos="6" mask="0x0FC0" name="Havok Material" type="ushort">Unused for non-Bethesda, non-bhk NiGeometryData.</member>
-        <member width="2" pos="12" mask="0xF000" name="NBT Method" type="NiNBTMethod" />
-    </bitfield>
-
-    <bitfield name="BSGeometryDataFlags" storage="ushort">
-        <member width="6" pos="0" mask="0x0001" name="Has UV" type="bool" />
-        <member width="6" pos="6" mask="0x0FC0" name="Havok Material" type="ushort" />
-        <member width="1" pos="12" mask="0x1000" name="Has Tangents" type="bool" />
-    </bitfield>
-
-    <bitfield name="CollisionFilterFlags" storage="byte">
-        <member width="5" pos="0" mask="0x001F" name="Biped Part" type="BipedPart">Used only if the Layer is 8 (or 32/33 for Skyrim and later).</member>
-        <member width="1" pos="5" mask="0x0020" name="MOPP Scaled" type="bool" />
-        <member width="1" pos="6" mask="0x0040" name="No Collision" type="bool" />
-        <member width="1" pos="7" mask="0x0080" name="Linked Group" type="bool">If Layer is CHARCONTROLLER (CC), true means "CC Trigger Only".</member>
-    </bitfield>
-    
     <!--Compounds
         These are like C structures and are used as sub-parts of more complex
         classes when there are multiple pieces of data repeated in an array.-->
@@ -1624,7 +1326,6 @@
         <field name="Length" type="uint">The string length.</field>
         <field name="Value" type="char" arr1="Length">The string itself.</field>
     </compound>
-
     <compound name="SizedString16">
         A string of given length, using a ushort to store string length.
         <field name="Length" type="ushort">The string length.</field>
@@ -1649,6 +1350,7 @@
         <field name="Num Strings" type="uint" />
         <field name="Strings" type="NiTFixedStringMapItem" template="#T#" arr1="Num Strings" />
     </compound>
+
     <compound name="ByteArray">
         An array of bytes.
         <field name="Data Size" type="uint">The number of bytes in this array</field>
@@ -2038,7 +1740,7 @@
         <field name="v3" type="ushort">Third vertex index.</field>
     </compound>
 	
-	<bitflags name="VertexFlags" storage="ushort" prefix="VF">
+	<bitflags name="VertexFlags" storage="ushort" prefix="VF"><!-- Same as "VertexAttribute"(Needs update after bitfields enabled-->
 		<!-- First 4 bits are unused -->
 		<option value="4" name="Vertex" />          <!-- & 16 -->
 		<option value="5" name="UVs" />             <!-- & 32 -->
@@ -2053,22 +1755,7 @@
 		<option value="14" name="Full_Precision" /> <!-- & 16384 -->
 		<!-- Last bit unused -->
 	</bitflags>
-
-    <bitfield name="BSVertexDesc" storage="uint64">
-        <member width="4" pos="0" mask="0xF" name="Vertex Data Size" type="uint" />
-        <member width="4" pos="4" mask="0xF0" name="Dynamic Vertex Size" type="uint" />
-        <member width="4" pos="8" mask="0xF00" name="UV1 Offset" type="uint" />
-        <member width="4" pos="12" mask="0xF000" name="UV2 Offset" type="uint" />
-        <member width="4" pos="16" mask="0xF0000" name="Normal Offset" type="uint" />
-        <member width="4" pos="20" mask="0xF00000" name="Tangent Offset" type="uint" />
-        <member width="4" pos="24" mask="0xF000000" name="Color Offset" type="uint" />
-        <member width="4" pos="28" mask="0xF0000000" name="Skinning Data Offset" type="uint" />
-        <member width="4" pos="32" mask="0xF00000000" name="Landscape Data Offset" type="uint" />
-        <member width="4" pos="36" mask="0xF000000000" name="Eye Data Offset" type="uint" />
-        <member width="4" pos="40" mask="0xF0000000000" name="Unused 01" type="uint" />
-        <member width="12" pos="44" mask="0xFFF00000000000" name="Vertex Attributes" type="VertexAttribute" />
-    </bitfield>
-
+    
 	<compound name="BSVertexData">
 		<field name="Vertex" type="HalfVector3" cond="((ARG &amp; 16) != 0) &amp;&amp; ((ARG &amp; 16384) == 0)" />
 		<field name="Bitangent X" type="hfloat" cond="((ARG &amp; 16) != 0) &amp;&amp; ((ARG &amp; 256) != 0) &amp;&amp; ((ARG &amp; 16384) == 0)" />
@@ -2103,6 +1790,16 @@
 		<field name="Bone Indices" type="byte" arr1="4" cond="(ARG &amp; 1024) != 0" />
 		<field name="Eye Data" type="float" cond="(ARG &amp; 4096) != 0" />
 	</compound>
+
+    <compound name="BSVertexDesc"><!--Need to enable bitfields for updated entry-->
+        <field name="VF1" type="byte" />
+        <field name="VF2" type="byte" />
+        <field name="VF3" type="byte" />
+        <field name="VF4" type="byte" />
+        <field name="VF5" type="byte" />
+        <field name="Vertex Attributes" type="VertexFlags" />
+        <field name="VF8" type="byte" />
+    </compound>
 
     <compound name="SkinPartition" ver1="4.2.1.0">
         Skinning data for a submesh, optimized for hardware skinning. Part of NiSkinPartition.
@@ -2224,11 +1921,11 @@
     <compound name="Particle"><!--Same as NiParticleInfo-->
         particle array entry
         <field name="Velocity" type="Vector3">Particle velocity</field>
-        <field name="Rotation Axis" type="Vector3">Unknown</field>
+        <field name="Unknown Vector" type="Vector3">Unknown</field>
         <field name="Lifetime" type="float">The particle age.</field>
         <field name="Lifespan" type="float">Maximum age of the particle.</field>
         <field name="Timestamp" type="float">Timestamp of the last update.</field>
-        <field name="Spawn Generation" type="ushort" default="0" />
+        <field name="Unknown Short" type="ushort" default="0">Unknown short</field>
         <field name="Vertex ID" type="ushort">Particle/vertex index matches array index</field>
     </compound>
 
@@ -2351,8 +2048,8 @@
         Bethesda extension of hkpVelocityConstraintMotor. Tries to reach and keep a desired target velocity.
         <field name="Min Force" type="float" default="-1000000.0">Minimum motor force</field>
         <field name="Max Force" type="float" default="1000000.0">Maximum motor force</field>
-        <field name="Tau" type="float" default="0.0">Relative stiffness</field>
-        <field name="Target Velocity" type="float" default="0.0" />
+        <field name="Tau" type="float" default="0">Relative stiffness</field>
+        <field name="Target Velocity" type="float" default="0" />
         <field name="Use Velocity Target" type="bool" default="0" />
         <field name="Motor Enabled" type="bool" default="0">Is Motor enabled</field>
     </compound>
@@ -2362,8 +2059,8 @@
         Tries to reach a given target position using an angular spring which has a spring constant.
         <field name="Min Force" type="float" default="-1000000.0">Minimum motor force</field>
         <field name="Max Force" type="float" default="1000000.0">Maximum motor force</field>
-        <field name="Spring Constant" type="float" default="0.0">The spring constant in N/m</field>
-        <field name="Spring Damping" type="float" default="0.0">The spring damping in Nsec/m</field>
+        <field name="Spring Constant" type="float" default="0">The spring constant in N/m</field>
+        <field name="Spring Damping" type="float" default="0">The spring damping in Nsec/m</field>       
         <field name="Motor Enabled" type="bool" default="0">Is Motor enabled</field>
     </compound>
     
@@ -2768,6 +2465,7 @@
         Havok object that do not react with other objects when they collide (causing deflection, etc.) but still trigger collision notifications to the game.  Possible uses are traps, portals, AI fields, etc.
     </niobject>
 
+<!-- Not Working yet
     <niobject name="bhkAabbPhantom" inherit="bhkPhantom" module="BSHavok" versions="#BETHESDA#">
         Bethesda extension of hkpAabbPhantom. A non-physical object made up of only an AABB.
             - Very fast as they use only broadphase collision detection.
@@ -2775,6 +2473,7 @@
         <field name="Unused 01" type="byte" arr1="8" binary="true" />
         <field name="AABB" type="hkAabb" />
     </niobject>
+-->
 
     <niobject name="bhkShapePhantom" abstract="1" inherit="bhkPhantom">
         A Havok phantom that uses a Havok shape object for its collision volume instead of just a bounding box.
@@ -3733,7 +3432,7 @@
 
     <niobject name="NiAlphaProperty" abstract="0" inherit="NiProperty">
         Transparency. Flags 0x00ED.
-        <field name="Flags" type="Flags" default="4844"><!--type="AlphaFlags"-->
+        <field name="Flags" type="Flags" default="4844">
             Bit 0 : alpha blending enable
             Bits 1-4 : source blend mode
             Bits 5-8 : destination blend mode
@@ -4958,7 +4657,7 @@
         <field name="Z Fail Action" type="StencilAction" ver2="20.0.0.5" />
         <field name="Pass Action" type="StencilAction" ver2="20.0.0.5" />
         <field name="Draw Mode" default="DRAW_BOTH" type="StencilDrawMode" ver2="20.0.0.5">Used to enabled double sided faces. Default is 3 (DRAW_BOTH).</field>
-        <field name="Flags" type="Flags" default="19840" ver1="20.1.0.3"><!--type="StencilFlags"-->
+        <field name="Flags" type="Flags" default="19840" ver1="20.1.0.3">
             Property flags:
             Bit 0: Stencil Enable
             Bits 1-3: Fail Action
@@ -5478,26 +5177,26 @@
     </enum>
 
     <bitflags name="NxShapeFlag" storage="uint" prefix="NX_SF" since="V20_2_0_8">
-        <option bit="0" name="TRIGGER_ON_ENTER" />
-        <option bit="1" name="TRIGGER_ON_LEAVE" />
-        <option bit="2" name="TRIGGER_ON_STAY" />
-        <option bit="3" name="VISUALIZATION" />
-        <option bit="4" name="DISABLE_COLLISION" />
-        <option bit="5" name="FEATURE_INDICES" />
-        <option bit="6" name="DISABLE_RAYCASTING" />
-        <option bit="7" name="POINT_CONTACT_FORCE" />
-        <option bit="8" name="FLUID_DRAIN" />
-        <option bit="10" name="FLUID_DISABLE_COLLISION" />
-        <option bit="11" name="FLUID_TWOWAY" />
-        <option bit="12" name="DISABLE_RESPONSE" />
-        <option bit="13" name="DYNAMIC_DYNAMIC_CCD" />
-        <option bit="14" name="DISABLE_SCENE_QUERIES" />
-        <option bit="15" name="CLOTH_DRAIN" />
-        <option bit="16" name="CLOTH_DISABLE_COLLISION" />
-        <option bit="17" name="CLOTH_TWOWAY" />
-        <option bit="18" name="SOFTBODY_DRAIN" />
-        <option bit="19" name="SOFTBODY_DISABLE_COLLISION" />
-        <option bit="20" name="SOFTBODY_TWOWAY" />
+        <option value="0" name="TRIGGER_ON_ENTER" />
+        <option value="1" name="TRIGGER_ON_LEAVE" />
+        <option value="2" name="TRIGGER_ON_STAY" />
+        <option value="3" name="VISUALIZATION" />
+        <option value="4" name="DISABLE_COLLISION" />
+        <option value="5" name="FEATURE_INDICES" />
+        <option value="6" name="DISABLE_RAYCASTING" />
+        <option value="7" name="POINT_CONTACT_FORCE" />
+        <option value="8" name="FLUID_DRAIN" />
+        <option value="10" name="FLUID_DISABLE_COLLISION" />
+        <option value="11" name="FLUID_TWOWAY" />
+        <option value="12" name="DISABLE_RESPONSE" />
+        <option value="13" name="DYNAMIC_DYNAMIC_CCD" />
+        <option value="14" name="DISABLE_SCENE_QUERIES" />
+        <option value="15" name="CLOTH_DRAIN" />
+        <option value="16" name="CLOTH_DISABLE_COLLISION" />
+        <option value="17" name="CLOTH_TWOWAY" />
+        <option value="18" name="SOFTBODY_DRAIN" />
+        <option value="19" name="SOFTBODY_DISABLE_COLLISION" />
+        <option value="20" name="SOFTBODY_TWOWAY" />
     </bitflags>
 
     <compound name="NxPlane">
@@ -5588,26 +5287,27 @@
     </niobject>
 
     <bitflags name="NxClothFlag" storage="uint" prefix="NX_CLF" since="V20_2_0_8">
-        <option bit="0" name="PRESSURE" />
-        <option bit="1" name="STATIC" />
-        <option bit="2" name="DISABLE_COLLISION" />
-        <option bit="3" name="SELFCOLLISION" />
-        <option bit="4" name="VISUALIZATION" />
-        <option bit="5" name="GRAVITY" />
-        <option bit="6" name="BENDING" />
-        <option bit="7" name="BENDING_ORTHO" />
-        <option bit="8" name="DAMPING" />
-        <option bit="9" name="COLLISION_TWOWAY" />
-        <option bit="11" name="TRIANGLE_COLLISION" />
-        <option bit="12" name="TEARABLE" />
-        <option bit="13" name="HARDWARE" />
-        <option bit="14" name="COMDAMPING" />
-        <option bit="15" name="VALIDBOUNDS" />
-        <option bit="16" name="FLUID_COLLISION" />
-        <option bit="17" name="DISABLE_DYNAMIC_CCD" />
-        <option bit="18" name="ADHERE" />
+        <option value="0" name="PRESSURE" />
+        <option value="1" name="STATIC" />
+        <option value="2" name="DISABLE_COLLISION" />
+        <option value="3" name="SELFCOLLISION" />
+        <option value="4" name="VISUALIZATION" />
+        <option value="5" name="GRAVITY" />
+        <option value="6" name="BENDING" />
+        <option value="7" name="BENDING_ORTHO" />
+        <option value="8" name="DAMPING" />
+        <option value="9" name="COLLISION_TWOWAY" />
+        <option value="11" name="TRIANGLE_COLLISION" />
+        <option value="12" name="TEARABLE" />
+        <option value="13" name="HARDWARE" />
+        <option value="14" name="COMDAMPING" />
+        <option value="15" name="VALIDBOUNDS" />
+        <option value="16" name="FLUID_COLLISION" />
+        <option value="17" name="DISABLE_DYNAMIC_CCD" />
+        <option value="18" name="ADHERE" />
     </bitflags>
 
+<!--
     <compound name="PhysXClothState" since="V20_2_0_8">
         <field name="Pose" type="Matrix34" />
         <field name="Num Vertex Positions" type="ushort" />
@@ -5616,6 +5316,7 @@
         <field name="Tear Indices" type="ushort" arr1="Num Tear Indices" />
         <field name="Tear Split Planes" type="Vector3" arr1="Num Tear Indices" />
     </compound>
+-->
 
     <compound name="PhysXClothAttachmentPosition" since="V20_2_0_8">
         <field name="Vertex ID" type="uint" />
@@ -5623,6 +5324,7 @@
         <field name="Flags" type="uint" />
     </compound>
 
+<!-- Need more tags to support
     <compound name="PhysXClothAttachment" since="V20_2_0_8">
         <field name="Shape" type="Ref" template="NiPhysXShapeDesc" />
         <field name="Num Vertices" type="uint" />
@@ -5672,7 +5374,7 @@
         <field name="Dest" type="Ref" template="NiPhysXDest" ver2="20.4.0.9" />
         <field name="Target Mesh" type="Ref" template="NiMesh" ver2="20.5.0.0" />
     </niobject>
-
+-->
     <niobject name="NiPhysXDest" inherit="NiObject" abstract="1">
         A destination is a link between a PhysX actor and a Gamebryo object being driven by the physics.
         <field name="Active" type="bool" />
@@ -5928,7 +5630,6 @@
     </niobject>
 
     <!-- Skyrim specific Node -->
-
     <niobject name="BSEffectShaderPropertyFloatController" abstract="0" inherit="NiFloatInterpController">
         This controller is used to animate float variables in BSEffectShaderProperty.
         <field name="Type of Controlled Variable" type="EffectShaderControlledVariable">Which float variable in BSEffectShaderProperty to animate:</field>
@@ -6330,9 +6031,11 @@
         <field name="Value Node Flags" type="BSValueNodeFlags" />
     </niobject>
 
+
     <niobject name="BSStripParticleSystem" inherit="NiParticleSystem">
         Bethesda-Specific (mesh?) Particle System.
     </niobject>
+
 
     <niobject name="BSStripPSysData" inherit="NiPSysData">
         Bethesda-Specific (mesh?) Particle System Data.
@@ -6342,21 +6045,27 @@
         <field name="Do Z Prepass" type="bool" />
     </niobject>
 
+
     <niobject name="BSPSysStripUpdateModifier" inherit="NiPSysModifier">
         Bethesda-Specific (mesh?) Particle System Modifier.
         <field name="Update Delta Time" type="float" />
     </niobject>
 
+
     <niobject name="BSMaterialEmittanceMultController" inherit="NiFloatInterpController">
         Bethesda-Specific time controller.
     </niobject>
+
+
 
     <niobject name="BSMasterParticleSystem" inherit="NiNode">
         Bethesda-Specific particle system.
         <field name="Max Emitter Objects" type="ushort" />
         <field name="Num Particle Systems" type="int" />
         <field name="Particle Systems" type="Ref" template="NiAVObject" arr1="Num Particle Systems" />
+
     </niobject>
+
 
     <niobject name="BSPSysMultiTargetEmitterCtlr" inherit="NiPSysEmitterCtlr">
         Particle system (multi?) emitter controller.
@@ -6364,15 +6073,18 @@
         <field name="Master Particle System" type="Ptr" template="BSMasterParticleSystem" />
     </niobject>
 
+
     <niobject name="BSRefractionStrengthController" inherit="NiFloatInterpController">
         Bethesda-Specific time controller.
     </niobject>
+
 
     <niobject name="BSOrderedNode" inherit="NiNode">
         Bethesda-Specific node.
         <field name="Alpha Sort Bound" type="Vector4" />
         <field name="Static Bound" type="bool" />
     </niobject>
+
 
     <niobject name="BSRangeNode" inherit="NiNode">
         Bethesda-Specific node.
@@ -6388,6 +6100,7 @@
     <niobject name="BSDamageStage" inherit="BSBlastNode">
         Bethesda-Specific node.
     </niobject>
+
 
     <niobject name="BSRefractionFirePeriodController" abstract="0" inherit="NiTimeController">
         Bethesda-specific time controller.
@@ -6405,6 +6118,12 @@
         as their Radius values differ in function. (Sphere/Capsule radius = physical size, CVS radius = padding/shell)
 
         Shapes collected in a bhkConvexListShape may not have the correct material noise.
+
+        Do not put a bhkPackedNiTriStripsShape in the Sub Shapes. Use a
+        separate collision nodes without a list shape for those.
+
+        Also, shapes collected in a bhkListShape may not have the correct
+        walking noise, so only use it for non-walkable objects.
         <field name="Num Sub Shapes" type="uint" />
         <field name="Sub Shapes" type="Ref" template="bhkConvexShape" arr1="Num Sub Shapes">List of shapes.</field>
         <field name="Material" type="HavokMaterial">The material of the shape.</field>
@@ -7032,7 +6751,7 @@
         <field name="Scale Amount V" type="float" />
         <field name="Scale Limit V" type="float" default="10000.0" />
         <field name="Scale Rest V" type="float" default="1.0" />
-        <field name="Center U" type="float" />
+        <field name="Center U " type="float" />
         <field name="Center V" type="float" />
         <field name="UV Scrolling" type="bool" />
         <field name="Num Frames Across" type="ushort" default="1" />
@@ -7132,6 +6851,34 @@
         <field name="Type" type="PSForceType" />
         <field name="Active" type="bool" />
     </niobject>
+<!--
+    <niobject name="NiPSForce" abstract="true" inherit="NiObject" module="NiPSParticle" since="V20_5_0_0">
+        Abstract base class for all particle forces.
+        <field name="Name" type="NiFixedString" />
+        <field name="Type" type="PSForceType">
+            The force type is set by each derived class and cannot be changed.
+            <default type="NiPSBombForce" value="FORCE_BOMB" />
+            <default type="NiPSDragForce" value="FORCE_DRAG" />
+            <default type="NiPSAirFieldForce" value="FORCE_AIR_FIELD" />
+            <default type="NiPSDragFieldForce" value="FORCE_DRAG_FIELD" />
+            <default type="NiPSGravityFieldForce" value="FORCE_GRAVITY_FIELD" />
+            <default type="NiPSRadialFieldForce" value="FORCE_RADIAL_FIELD" />
+            <default type="NiPSTurbulenceFieldForce" value="FORCE_TURBULENCE_FIELD" />
+            <default type="NiPSVortexFieldForce" value="FORCE_VORTEX_FIELD" />
+            <default type="NiPSGravityForce" value="FORCE_GRAVITY" />
+        </field>
+        <field name="Active" type="bool" />
+    </niobject>
+-->
+
+    <niobject name="NiPSFieldForce" abstract="true" inherit="NiPSForce" module="NiPSParticle" since="V20_5_0_0">
+        Abstract base class for all particle field forces.
+        <field name="Field Object" type="Ref" template="NiAVObject" />
+        <field name="Magnitude" type="float" />
+        <field name="Attenuation" type="float" />
+        <field name="Use Max Distance" type="bool" />
+        <field name="Max Distance" type="float" />
+    </niobject>
 
     <niobject name="NiPSDragForce" inherit="NiPSForce">
         Applies a linear drag force to particles.
@@ -7163,7 +6910,7 @@
         <field name="Bomb Object" type="Ptr" template="NiAVObject" />
     </niobject>
 
-    <niobject name="NiPSAirFieldForce" inherit="NiPSFieldForce" module="NiPSParticle" since="V20_5_0_0">
+    <niobject name="NiPSAirFieldForce" inherit="NiPSFieldForce" since="V20_5_0_0"><!--module="NiPSParticle"-->
         Inside a field, updates particle velocity to simulate the effects of air movements.
         <field name="Direction" type="Vector3" />
         <field name="Air Friction" type="float" />
@@ -7173,6 +6920,7 @@
         <field name="Spread" type="float" />
     </niobject>
 
+<!-- Might need more flags
     <niobject name="NiPSGravityFieldForce" inherit="NiPSFieldForce" module="NiPSParticle" since="V20_5_0_0">
         Inside a field, updates particle velocity to simulate the effects of directional gravity.
         <field name="DEM Unknown Short" type="ushort" ver1="20.6.5.0" ver2="20.6.5.0" vercond="#USER# #GT# 14" />
@@ -7185,8 +6933,8 @@
         <field name="Use Direction" type="bool" />
         <field name="Direction" type="Vector3" default="#X_AXIS#" />
     </niobject>
-
-    <niobject name="NiPSRadialFieldForce" inherit="NiPSFieldForce" module="NiPSParticle" since="V20_5_0_0">
+ -->
+    <niobject name="NiPSRadialFieldForce" inherit="NiPSFieldForce" since="V20_5_0_0"><!--module="NiPSParticle"-->
         Inside a field, updates particle velocity to simulate the effects of point gravity.
         <field name="Radial Factor" type="float" />
     </niobject>
@@ -7196,10 +6944,12 @@
         <field name="Frequency" type="float" />
     </niobject>
 
+<!-- Might need more flags
     <niobject name="NiPSVortexFieldForce" inherit="NiPSFieldForce" module="NiPSParticle" since="V20_5_0_0">
         Inside a field, updates particle velocity to simulate the effects of a vortex.
         <field name="Direction" type="Vector3" default="#X_AXIS#" />
     </niobject>
+ -->
 
     <!-- NiPS Emitters -->
 
@@ -7634,7 +7384,7 @@
 		<field name="Num Transforms" type="uint">Number of chunk transformations</field>
         <field name="Chunk Transforms" type="bhkCMSDTransform" arr1="Num Transforms">Table (array) with sets of transformations. Chunks refers to this table by index.</field>
 		<field name="Num Big Verts" type="uint" />
-		<field name="Big Verts" type="Vector4" arr1="Num Big Verts">Compressed Vertices?</field>
+        <field name="Big Verts" type="Vector4" arr1="Num Big Verts">Vertices paired with Big Tris (triangles that are too large for chunks)</field>
         <field name="Num Big Tris" type="uint" />
         <field name="Big Tris" type="bhkCMSDBigTris" arr1="Num Big Tris" />
         <field name="Num Chunks" type="uint" />
@@ -7765,6 +7515,7 @@
     <niobject name="bhkNPCollisionObject" inherit="NiCollisionObject">
         Fallout 4 Collision Object
         <field name="Flags" type="ushort">
+            Note: The CK Preview scenegraph reports these bits incorrectly.
             Due to inaccurate reporting in the CK the Reset and Sync On Update positions are a guess.
             Bits: 0=Reset, 2=Notify, 3=SetLocal, 7=SyncOnUpdate, 10=AnimTargeted
         </field>
@@ -7807,8 +7558,8 @@
         <field name="Data" type="Ref" template="BSSkin::BoneData" />
         <field name="Num Bones" type="uint" />
         <field name="Bones" type="Ptr" template="NiNode" arr1="Num Bones" />
-        <field name="Num Unknown" type="uint" />
-        <field name="Unknown" type="Vector3" arr1="Num Unknown" />
+        <field name="Num Scales" type="uint" />
+        <field name="Scales" type="Vector3" arr1="Num Scales" />
     </niobject>
 
     <niobject name="BSSkin::BoneData" inherit="NiObject">
@@ -7895,6 +7646,11 @@
         Fallout 4 Packed Combined Shared Geometry Data.
         Geometry is NOT baked into the file. It is instead a reference to the shape via a Shape ID (currently undecoded)
         which loads the geometry via the STAT form for the NIF.
+    </niobject>
+ <!--
+        Fallout 4 Packed Combined Shared Geometry Data.
+        Geometry is NOT baked into the file. It is instead a reference to the shape via a Shape ID (currently undecoded)
+        which loads the geometry via the STAT form for the NIF.
         <field name="Vertex Desc" type="BSVertexDesc" />
         <field name="Num Vertices" type="uint" />
         <field name="Num Triangles" type="uint" />
@@ -7903,11 +7659,11 @@
         <field name="Num Data" type="uint" />
         <field name="Object" type="BSPackedGeomObject" arr1="Num Data" />
         <field name="Object Data" type="BSPackedSharedGeomData" arr1="Num Data" />
-    </niobject>
+ -->
 
     <!-- Fallout 4 Animation -->
     
-    <niobject name="NiLightRadiusController" inherit="NiFloatInterpController"><!-- module="BSAnimation" versions="#FO4# #F76#"-->
+    <niobject name="NiLightRadiusController" inherit="NiFloatInterpController">
     
     </niobject>
 	
@@ -7928,7 +7684,8 @@
         <field name="Distant Object Flags" type="uint" />
     </niobject>
 
-    <compound name="BSDistantObjectInstance"><!--module="BSMain" versions="#F76#"-->
+<!--
+    <compound name="BSDistantObjectInstance" module="BSMain" versions="#F76#">
         <field name="Unknown Bytes 1" type="byte" arr1="12" />
         <field name="Num Unknown 1" type="uint" />
         <field name="Unknown Ints 1" type="uint" arr1="3 #MUL# Num Unknown 1" />
@@ -7936,15 +7693,16 @@
         <field name="Unknown Bytes 2" type="byte" binary="true" arr1="64 #MUL# Num Unknown 2" />
     </compound>
 
-    <compound name="BSDistantObjectTextureArray"><!--module="BSMain" versions="#F76#"-->
+    <compound name="BSDistantObjectTextureArray" module="BSMain" versions="#F76#">
         <field name="Unknown Byte" type="byte" default="1" />
         <field name="Num Texture Arrays" type="uint" />
         <field name="Texture Arrays" type="BSTextureArray" arr1="Num Texture Arrays" />
     </compound>
 
-    <niobject name="BSDistantObjectInstancedNode" inherit="BSMultiBoundNode"><!--module="BSMain" versions="#F76#"-->
+    <niobject name="BSDistantObjectInstancedNode" inherit="BSMultiBoundNode" module="BSMain" versions="#F76#">
         <field name="Num Instances" type="uint" />
         <field name="Instances" type="BSDistantObjectInstance" arr1="Num Instances" />
         <field name="Texture Arrays" type="BSDistantObjectTextureArray" arr1="3" />
     </niobject>
+-->
 </niftoolsxml>
